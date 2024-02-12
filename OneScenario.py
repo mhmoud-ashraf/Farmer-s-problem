@@ -26,7 +26,7 @@ model = gp.Model("OneScenario")
 # Create variables
 x = model.addVars(I, name="x")
 y = model.addVars(J, name="y")
-w = model.addVars(K, name="z")
+w = model.addVars(K, name="w")
 #%%
 # Set objective
 model.setObjective(gp.quicksum(r[k-1] * w[k] for k in K) - gp.quicksum(p[i-1] * x[i] for i in I) - gp.quicksum(c[j-1] * y[j] for j in J), GRB.MAXIMIZE)
