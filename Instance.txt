@@ -1,0 +1,10 @@
+Area 500
+Crop Wheat Corn SugarBeet
+Demand 200 240 0
+SellingPrice 170 150 36,10
+Threshold 0 0 6000
+PurchasePrice 238 210 0
+OptimisticYield 3 3.6. 24
+ExpectedYield 2.5 3 20
+PessimisticYield 2 2.4 16
+PlantingCost 150 230 260
